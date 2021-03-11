@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url(./bkg.jpg) center/cover fixed no-repeat;
+}
+
+h1 {
+  color: rgb(228, 48, 93);
+  font-family: "Sarina", cursive;
+  font-size: 3rem;
+  text-shadow: 1.5px 1.5px 10px black;
+}
+h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2rem;
+}
+
+input {
+  font-size: 1.5rem;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-radius: 10px;
+  margin: 2rem;
+  outline: none;
+  opacity: 0.7;
+  transition: all ease-in-out 1.5s;
+}
+input:hover {
+  opacity: 1;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  /* border: 2px solid black; */
+  border-radius: 8px;
+  flex: 0 0 80%;
+  transition: all ease-in-out 1s;
+}
+.container:hover {
+  box-shadow: 0 0 50px black;
+}
+
+.Btn {
+  display: block;
+  font-size: 2rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background: #6cc3d8;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-shadow: 1.5px 1.5px 8px black;
+  box-shadow: 0 0 20px black;
+  cursor: pointer;
+  transition: all ease-in-out 1.5s;
+}
+.Btn:hover {
+  color: black;
+  opacity: 0.8;
+  box-shadow: 5px 5px 50px rgb(214, 166, 9);
+}
